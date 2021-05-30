@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SDNews/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/SDNews/static/js/main.85939393.chunk.js",
+    "main.js.map": "/SDNews/static/js/main.85939393.chunk.js.map",
+    "runtime-main.js": "/SDNews/static/js/runtime-main.bcca3424.js",
+    "runtime-main.js.map": "/SDNews/static/js/runtime-main.bcca3424.js.map",
+    "static/js/2.79ca85c4.chunk.js": "/SDNews/static/js/2.79ca85c4.chunk.js",
+    "static/js/2.79ca85c4.chunk.js.map": "/SDNews/static/js/2.79ca85c4.chunk.js.map",
+    "static/js/3.c99024b3.chunk.js": "/SDNews/static/js/3.c99024b3.chunk.js",
+    "static/js/3.c99024b3.chunk.js.map": "/SDNews/static/js/3.c99024b3.chunk.js.map",
+    "index.html": "/SDNews/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/SDNews/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.79ca85c4.chunk.js.LICENSE.txt": "/SDNews/static/js/2.79ca85c4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcca3424.js",
+    "static/js/2.79ca85c4.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.85939393.chunk.js"
+  ]
+}
