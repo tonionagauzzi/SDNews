@@ -5,6 +5,7 @@ import { linkify } from 'remarkable/linkify';
 import externalLink from 'remarkable-external-link';
 
 function App() {
+  const defaultInput = "# My TODO\n1. Eat\n1. Sleep\n1. Have fun\n# Your TODO\n* Work\n* Work\n* Work"
   const remarkable = new Remarkable({
     html: false,
     breaks: true,
@@ -12,13 +13,11 @@ function App() {
   })
     .use(linkify)
     .use(externalLink);
-
   const textAreaStyle = {
     height: '13em',
     lineHeight: '1.3',
     minWidth: '90vh',
   };
-
   const outputStyle = {
     height: '13em',
     lineHeight: '1.3',
@@ -26,8 +25,7 @@ function App() {
     paddingLeft: '5vh',
     textAlign: 'left',
   };
-
-  const [input, updateInput] = useState("# My TODO\n1. Eat\n1. Sleep\n1. Have fun\n# Your TODO\n* Work\n* Work\n* Work\n# My Website\n* [tonionagauzzi.github.io](tonionagauzzi.github.io/SDNews)");
+  const [input, updateInput] = useState(defaultInput);
 
   return (
     <div className="App">
